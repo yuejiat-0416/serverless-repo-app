@@ -1,10 +1,10 @@
 // start coding your function here!
 function running_late(date) {
   d = new Date(date);
-  if (d.getHours() === 8){
+  if (d.getHours() < 22){
     return "It is still early!";
   }
-  else if(d.getHours() === 23 && d.getMinutes() == 30){
+  else{
     return "It is late!";
   }
 }
