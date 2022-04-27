@@ -4,4 +4,4 @@ function hello(){
 }
 
 hello();
-module.exports = hello;
+exports.hello = hello;
